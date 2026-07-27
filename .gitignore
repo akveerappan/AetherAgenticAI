@@ -1,0 +1,15 @@
+# Ignore any folder named __pycache__ anywhere in the project tree
+**/__pycache__/
+
+# Ignore any compiled Python bytecode files anywhere in the project tree
+**/*.pyc
+
+# Ignore data and model files
+**/*.csv
+**/*.pkl
+
+# Ignore env file to fix the security issue
+#**/.env
+
+# Ignore the tests.py
+tests.py
